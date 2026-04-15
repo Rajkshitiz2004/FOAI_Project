@@ -1,20 +1,20 @@
 import React from 'react';
 
-const categories = ["Admissions", "Courses", "Hostel", "Facilities", "Events"];
-
 const QuickButtons = ({ onSelect }) => {
+  const categories = ['Admissions', 'Hostel', 'Courses', 'Gym', 'Fees'];
+
   return (
-    <div className="quick-buttons-container">
+    <>
       {categories.map((cat) => (
         <button 
           key={cat} 
-          className="quick-btn" 
+          className="chip" 
           onClick={() => onSelect(cat)}
         >
           {cat}
         </button>
       ))}
-    </div>
+    </>
   );
 };
 

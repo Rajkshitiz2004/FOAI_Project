@@ -18,7 +18,6 @@ const ChatInterface = () => {
   const [isTyping, setIsTyping] = useState(false);
   const chatEndRef = useRef(null);
 
-  // Auto-scroll to bottom on new messages
   const scrollToBottom = () => {
     chatEndRef.current?.scrollIntoView({ behavior: "smooth" });
   };
@@ -27,7 +26,6 @@ const ChatInterface = () => {
     scrollToBottom();
   }, [messages, isTyping]);
 
-  // Expose a command dispatcher for quick buttons and options
   useEffect(() => {
     window.dispatchChatCommand = (text) => {
       handleSendMessage(text);
@@ -41,7 +39,8 @@ const ChatInterface = () => {
     const userMessage = {
       id: Date.now().toString(),
       text: text,
-      type: 'user'
+      type: 'user',
+      timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
     };
 
     setMessages(prev => [...prev, userMessage]);
@@ -49,16 +48,14 @@ const ChatInterface = () => {
     setIsTyping(true);
 
     try {
-      // 1. Retrieve Context from Knowledge Base
       const context = getQueryContext(text);
-
-      // 2. Call AI Service (Hugging Face Router / Groq)
       const botResponse = await getAIResponse(text, context);
       
       const botMessage = {
         ...botResponse,
         id: (Date.now() + 1).toString(),
-        userQuery: text
+        userQuery: text,
+        timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
       };
 
       setMessages(prev => [...prev, botMessage]);
@@ -67,7 +64,8 @@ const ChatInterface = () => {
         id: (Date.now() + 1).toString(),
         text: "I'm having trouble connecting to my brain right now. Please try again soon!",
         type: 'bot',
-        intent: 'error'
+        intent: 'error',
+        timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
       }]);
     } finally {
       setIsTyping(false);
@@ -80,44 +78,57 @@ const ChatInterface = () => {
 
   const handleFeedback = (id, status) => {
     console.log(`Feedback for ${id}: ${status}`);
-    // State is already handled inside MessageBubble for visual feedback
   };
 
   return (
-    <div className="chat-container">
-      <header className="chat-header">
-        <div className="status-indicator"></div>
-        <h1>Academia AI</h1>
-        <p>College FAQ Hub</p>
-      </header>
-
-      <div className="chat-history">
+    <>
+      <div className="chat-window">
         {messages.map((msg) => (
           <MessageBubble key={msg.id} message={msg} onFeedback={handleFeedback} />
         ))}
-        {isTyping && <TypingIndicator />}
+        {isTyping && (
+          <div className="msg-container bot">
+             <div className="typing-neo">
+                <div className="loader-blocks">
+                  <div className="block"></div>
+                  <div className="block"></div>
+                  <div className="block"></div>
+                </div>
+                <span>Analyzing knowledge base...</span>
+             </div>
+          </div>
+        )}
         <div ref={chatEndRef} />
       </div>
 
-      <footer className="chat-footer">
-        <QuickButtons onSelect={(cat) => handleSendMessage(`Tell me about ${cat}`)} />
+      <footer className="input-container">
+        <div className="quick-bar">
+          <QuickButtons onSelect={(cat) => handleSendMessage(`Tell me about ${cat}`)} />
+        </div>
         
-        <div className="input-area">
+        <div className="neo-input-wrapper">
+          <div className="input-util-btn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <path d="M21.44 11.05l-9.19 9.19a6 6 0 0 1-8.49-8.49l9.19-9.19a4 4 0 0 1 5.66 5.66l-9.2 9.19a2 2 0 0 1-2.83-2.83l8.49-8.48"></path>
+            </svg>
+          </div>
           <input 
             type="text" 
-            placeholder="Ask about admissions, fees, hostel..." 
+            placeholder="Ask Academia AI about courses, fees, or campus life..." 
             value={inputText}
             onChange={(e) => setInputText(e.target.value)}
             onKeyPress={handleKeyPress}
           />
-          <button className="send-btn" onClick={() => handleSendMessage()}>
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" />
+          <button className="send-action-btn" onClick={() => handleSendMessage()}>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+              <line x1="22" y1="2" x2="11" y2="13"></line>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
             </svg>
           </button>
         </div>
+        <p className="input-hint">PRESS <kbd>ENTER</kbd> TO SEND MESSAGE</p>
       </footer>
-    </div>
+    </>
   );
 };
 
