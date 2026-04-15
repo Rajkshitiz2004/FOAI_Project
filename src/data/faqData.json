@@ -1,0 +1,369 @@
+{
+  "categories": ["Admissions", "Courses", "Hostel", "Facilities", "Events"],
+  "faqs": [
+    {
+      "id": "adm_1",
+      "category": "Admissions",
+      "keywords": ["admission", "apply", "how to apply", "enrollment", "registration", "application link", "joining process"],
+      "question": "How do I apply for admission?",
+      "answer": "You can apply through our online portal at admissions.college.edu. Register with your email, fill out the application form, and upload the required documents."
+    },
+    {
+      "id": "adm_2",
+      "category": "Admissions",
+      "keywords": ["eligibility", "criteria", "requirements"],
+      "question": "What is the eligibility criteria for undergrad courses?",
+      "answer": "Minimum 60% in high school (10+2) with Physics, Chemistry, and Math as compulsory subjects for Engineering, or relevant subjects for other streams."
+    },
+    {
+      "id": "adm_3",
+      "category": "Admissions",
+      "keywords": ["deadline", "last date", "apply date", "cutoff date", "closing date", "admission end date"],
+      "question": "When is the last date to apply?",
+      "answer": "The application deadline for the Fall 2024 semester is July 30th. Early bird applications close on June 15th."
+    },
+    {
+      "id": "adm_4",
+      "category": "Admissions",
+      "keywords": ["scholarship", "financial aid", "grant"],
+      "question": "Are there any scholarships available?",
+      "answer": "Yes, we offer merit-based and need-based scholarships. Students with >90% in boards are eligible for a 50% tuition waiver."
+    },
+    {
+      "id": "adm_5",
+      "category": "Admissions",
+      "keywords": ["documents", "certificate", "id proof"],
+      "question": "What documents are required for admission?",
+      "answer": "You need your 10th and 12th marksheets, a valid ID proof (Aadhaar/Passport), transfer certificate, and migration certificate."
+    },
+    {
+      "id": "adm_6",
+      "category": "Admissions",
+      "keywords": ["entrance", "exam", "test"],
+      "question": "Is there an entrance exam?",
+      "answer": "Yes, we conduct the College Entrance Test (CET) for all major programs. Scores from JEE and NEET are also accepted."
+    },
+    {
+      "id": "adm_7",
+      "category": "Admissions",
+      "keywords": ["interview", "selection", "process"],
+      "question": "Is there an interview process?",
+      "answer": "Shortlisted candidates for Management and Design courses are required to attend a personal interview round."
+    },
+    {
+      "id": "adm_8",
+      "category": "Admissions",
+      "keywords": ["refund", "cancellation", "withdraw"],
+      "question": "What is the admission refund policy?",
+      "answer": "Full refund is available if withdrawn 15 days before the semester starts. A 10% processing fee applies thereafter."
+    },
+    {
+      "id": "adm_9",
+      "category": "Admissions",
+      "keywords": ["international", "foreign", "nri"],
+      "question": "Do you accept international students?",
+      "answer": "Yes, we have a dedicated International Student Office to assist with admissions, visas, and accommodation."
+    },
+    {
+      "id": "adm_10",
+      "category": "Admissions",
+      "keywords": ["transfer", "lateral", "migration"],
+      "question": "Do you allow lateral entry?",
+      "answer": "Yes, students with a diploma can apply for lateral entry into the 2nd year of B.Tech programs."
+    },
+    {
+      "id": "crs_1",
+      "category": "Courses",
+      "keywords": ["computer science", "cs", "it"],
+      "question": "What is the syllabus for Computer Science?",
+      "answer": "The CS curriculum covers Data Structures, Algorithms, AI, Web Development, and Cloud Computing across 8 semesters."
+    },
+    {
+      "id": "crs_2",
+      "category": "Courses",
+      "keywords": ["mechanical", "mech", "engineering"],
+      "question": "Tell me about the Mechanical Engineering course.",
+      "answer": "Our Mech department focuses on Robotics, Thermodynamics, and Automotive design with state-of-the-art labs."
+    },
+    {
+      "id": "crs_3",
+      "category": "Courses",
+      "keywords": ["credits", "grading", "gpa"],
+      "question": "How does the credit system work?",
+      "answer": "Each course carries 3-4 credits. A total of 160 credits are required for graduation in B.Tech."
+    },
+    {
+      "id": "crs_4",
+      "category": "Courses",
+      "keywords": ["electives", "minor", "optional"],
+      "question": "Can I choose minor subjects?",
+      "answer": "Yes, from the 3rd semester, students can choose minor subjects in fields like Psychology, Photography, or Finance."
+    },
+    {
+      "id": "crs_5",
+      "category": "Courses",
+      "keywords": ["internship", "project", "work"],
+      "question": "Are internships mandatory?",
+      "answer": "Yes, a 6-week summer internship is mandatory at the end of the 6th semester."
+    },
+    {
+      "id": "crs_6",
+      "category": "Courses",
+      "keywords": ["placements", "jobs", "careers"],
+      "question": "What are the placement statistics?",
+      "answer": "Last year, 95% of graduates were placed with an average package of $85,000 per annum."
+    },
+    {
+      "id": "crs_7",
+      "category": "Courses",
+      "keywords": ["faculty", "teachers", "professors"],
+      "question": "Who are the core faculty members?",
+      "answer": "Our faculty includes PhD holders from top global universities and industry veterans with decades of experience."
+    },
+    {
+      "id": "crs_8",
+      "category": "Courses",
+      "keywords": ["online", "remote", "hybrid"],
+      "question": "Are there any online courses?",
+      "answer": "We offer several certification programs online, but degree programs are currently on-campus only."
+    },
+    {
+      "id": "crs_9",
+      "category": "Courses",
+      "keywords": ["labs", "practical", "research"],
+      "question": "What research facilities are available?",
+      "answer": "We have 15 specialized research labs, including an Innovation Hub and a Nano-Tech Center."
+    },
+    {
+      "id": "crs_10",
+      "category": "Courses",
+      "keywords": ["attendance", "rules", "leave"],
+      "question": "What is the minimum attendance requirement?",
+      "answer": "Students must maintain at least 75% attendance to be eligible for final examinations."
+    },
+    {
+      "id": "hst_1",
+      "category": "Hostel",
+      "keywords": ["hostel", "accommodation", "stay"],
+      "question": "Is hostel mandatory for all students?",
+      "answer": "No, it's optional. However, freshers are encouraged to stay in the hostel for better integration."
+    },
+    {
+      "id": "hst_2",
+      "category": "Hostel",
+      "keywords": ["hostel fees", "room rent", "payment", "hostel cost", "stays fee", "dormitory price", "accommodation charges"],
+      "question": "What is the fee for the hostel?",
+      "answer": "Hostel fees range from $1,500 to $2,500 per semester depending on the room type (Single/Double, AC/Non-AC). This includes mess charges."
+    },
+    {
+      "id": "hst_3",
+      "category": "Hostel",
+      "keywords": ["mess", "food", "dining"],
+      "question": "Is food included in the hostel fee?",
+      "answer": "The hostel fee includes 4 meals a day (Breakfast, Lunch, Evening Snacks, and Dinner)."
+    },
+    {
+      "id": "hst_4",
+      "category": "Hostel",
+      "keywords": ["timings", "curfew", "entry", "closing time", "out time", "hostel rules", "night rules"],
+      "question": "What are the hostel timings?",
+      "answer": "Students must return to the hostel by 9:30 PM. Late entry requires prior permission from the warden."
+    },
+    {
+      "id": "hst_5",
+      "category": "Hostel",
+      "keywords": ["wifi", "internet", "connectivity"],
+      "question": "Is Wi-Fi available in the hostel?",
+      "answer": "Yes, high-speed 5G Wi-Fi is available 24/7 across all hostel blocks."
+    },
+    {
+      "id": "hst_6",
+      "category": "Hostel",
+      "keywords": ["laundry", "washing", "cleaning"],
+      "question": "Are there laundry facilities?",
+      "answer": "Every floor has card-operated washing machines and dryers. Dry cleaning services are also available on-site."
+    },
+    {
+      "id": "hst_7",
+      "category": "Hostel",
+      "keywords": ["gym", "fitness", "sports"],
+      "question": "Is there a gym in the hostel?",
+      "answer": "Yes, each hostel block has a mini-gym and a common room for indoor games like Table Tennis."
+    },
+    {
+      "id": "hst_8",
+      "category": "Hostel",
+      "keywords": ["medical", "doctor", "health"],
+      "question": "What if I fall sick in the hostel?",
+      "answer": "A resident doctor and ambulance are available on-call 24/7. The nearest hospital is only 5 minutes away."
+    },
+    {
+      "id": "hst_9",
+      "category": "Hostel",
+      "keywords": ["guest", "visitors", "parents"],
+      "question": "Can my parents stay in the hostel?",
+      "answer": "Parents can stay for up to 2 days in the guest house with a nominal fee and prior booking."
+    },
+    {
+      "id": "hst_10",
+      "category": "Hostel",
+      "keywords": ["antiragging", "safety", "security"],
+      "question": "Is the hostel safe?",
+      "answer": "We have a zero-tolerance policy for ragging. 24/7 CCTV surveillance and security guards ensure student safety."
+    },
+    {
+      "id": "fac_1",
+      "category": "Facilities",
+      "keywords": ["library", "books", "study"],
+      "question": "What are the library hours?",
+      "answer": "The central library is open from 8:00 AM to 10:00 PM on weekdays and 9:00 AM to 5:00 PM on weekends."
+    },
+    {
+      "id": "fac_2",
+      "category": "Facilities",
+      "keywords": ["canteen", "cafeteria", "snacks"],
+      "question": "How many canteens are on campus?",
+      "answer": "There are 3 major food courts and several snack kiosks offering a variety of cuisines."
+    },
+    {
+      "id": "fac_3",
+      "category": "Facilities",
+      "keywords": ["sports", "ground", "courts"],
+      "question": "What sports facilities do you have?",
+      "answer": "We have a football field, cricket ground, basketball courts, and an Olympic-size swimming pool."
+    },
+    {
+      "id": "fac_4",
+      "category": "Facilities",
+      "keywords": ["parking", "vehicle", "cycles"],
+      "question": "Is parking available for students?",
+      "answer": "Yes, designated parking zones are available for two-wheelers and four-wheelers. Cycles are encouraged."
+    },
+    {
+      "id": "fac_5",
+      "category": "Facilities",
+      "keywords": ["atm", "bank", "cash"],
+      "question": "Is there an ATM on campus?",
+      "answer": "Yes, there is a 24-hour ATM and a branch of Global Bank located near the administration block."
+    },
+    {
+      "id": "fac_6",
+      "category": "Facilities",
+      "keywords": ["auditorium", "events", "hall"],
+      "question": "Do you have an auditorium?",
+      "answer": "Yes, we have a 1500-seater fully air-conditioned auditorium for major events and guest lectures."
+    },
+    {
+      "id": "fac_7",
+      "category": "Facilities",
+      "keywords": ["transport", "bus", "shuttle"],
+      "question": "Is there a college bus service?",
+      "answer": "Yes, we provide shuttle services across the city. You can register for the bus service annually."
+    },
+    {
+      "id": "fac_8",
+      "category": "Facilities",
+      "keywords": ["incubation", "startup", "entrepreneurship"],
+      "question": "Do you support startups?",
+      "answer": "Our Incubation Center provides mentorship, workspace, and seed funding for student-led startups."
+    },
+    {
+      "id": "fac_9",
+      "category": "Facilities",
+      "keywords": ["computer", "lab", "it"],
+      "question": "Where can I access computers?",
+      "answer": "Computer labs are located in every department, and the central IT block is open 18 hours a day."
+    },
+    {
+      "id": "fac_10",
+      "category": "Facilities",
+      "keywords": ["printing", "xerox", "stationery"],
+      "question": "Are there printing shops on campus?",
+      "answer": "Yes, stationery and printing shops are located in the student center and near each hostel block."
+    },
+    {
+      "id": "evn_1",
+      "category": "Events",
+      "keywords": ["annual fest", "college fest", "celebration"],
+      "question": "When is the annual cultural fest?",
+      "answer": "Our annual fest, 'Aura', usually takes place in the second week of February each year."
+    },
+    {
+      "id": "evn_2",
+      "category": "Events",
+      "keywords": ["tech fest", "hackathon", "innovation"],
+      "question": "Do you host any hackathons?",
+      "answer": "Yes, 'CodeStorm' is our flagship 24-hour national hackathon held every October."
+    },
+    {
+      "id": "evn_3",
+      "category": "Events",
+      "keywords": ["convocation", "graduation", "degree"],
+      "question": "When is the convocation ceremony?",
+      "answer": "Convocation is typically held in May for students who graduated in the previous academic year."
+    },
+    {
+      "id": "evn_4",
+      "category": "Events",
+      "keywords": ["clubs", "societies", "groups"],
+      "question": "How can I join a student club?",
+      "answer": "We have over 40 clubs! You can sign up during the 'Club Fair' which happens in the first week of September."
+    },
+    {
+      "id": "evn_5",
+      "category": "Events",
+      "keywords": ["workshop", "seminar", "talk"],
+      "question": "Are there any workshops this month?",
+      "answer": "Check the events calendar on our website for the latest schedules. This month we have a workshop on AI and Ethics."
+    },
+    {
+      "id": "evn_6",
+      "category": "Events",
+      "keywords": ["sports meet", "annual sports", "athletics"],
+      "question": "When is the annual sports meet?",
+      "answer": "The Inter-College Sports Meet 'Arena' is scheduled for November 15-20."
+    },
+    {
+      "id": "evn_7",
+      "category": "Events",
+      "keywords": ["orientation", "fresher", "induction"],
+      "question": "When is the orientation for new students?",
+      "answer": "Orientation for the Class of 2024 begins on August 1st and lasts for three days."
+    },
+    {
+      "id": "evn_8",
+      "category": "Events",
+      "keywords": ["alumni", "meet", "reunion"],
+      "question": "Is there an alumni meet?",
+      "answer": "Yes, 'Grand Reunion' is held every December, inviting alumni from across the globe."
+    },
+    {
+      "id": "evn_9",
+      "category": "Events",
+      "keywords": ["tedx", "talk", "speaker"],
+      "question": "Do you host TEDx events?",
+      "answer": "Yes, TEDxCollegeCity is an annual event that features inspiring talks from various fields."
+    },
+    {
+      "id": "evn_10",
+      "category": "Events",
+      "keywords": ["blood donation", "charity", "social"],
+      "question": "Are there any social service events?",
+      "answer": "The NSS unit organizes blood donation camps and teaching drives in nearby villages every semester."
+    },
+    {
+      "id": "gen_1",
+      "category": "Fees",
+      "keywords": ["tuition fees", "course fees", "cost", "total fees", "college fees", "academic price", "program cost"],
+      "question": "What is the tuition fee?",
+      "answer": "Tuition fees vary by program. On average, it ranges from $5,000 to $12,000 per academic year for most degree programs."
+    },
+    {
+      "id": "gen_2",
+      "category": "Fees",
+      "keywords": ["exam fees", "test fees", "backlog"],
+      "question": "What is the exam fee?",
+      "answer": "Exam fees are $100 per semester. Backlog exam fees are $20 per subject."
+    }
+  ]
+}
