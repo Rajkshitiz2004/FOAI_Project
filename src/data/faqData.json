@@ -111,7 +111,7 @@
       "category": "Courses",
       "keywords": ["placements", "jobs", "careers"],
       "question": "What are the placement statistics?",
-      "answer": "Last year, 95% of graduates were placed with an average package of $85,000 per annum."
+      "answer": "Last year, 95% of graduates were placed with an average package of ₹70,55,000 per annum."
     },
     {
       "id": "crs_7",
@@ -153,7 +153,7 @@
       "category": "Hostel",
       "keywords": ["hostel fees", "room rent", "payment", "hostel cost", "stays fee", "dormitory price", "accommodation charges"],
       "question": "What is the fee for the hostel?",
-      "answer": "Hostel fees range from $1,500 to $2,500 per semester depending on the room type (Single/Double, AC/Non-AC). This includes mess charges."
+      "answer": "Hostel fees range from ₹1,24,500 to ₹2,07,500 per semester depending on the room type (Single/Double, AC/Non-AC). This includes mess charges."
     },
     {
       "id": "hst_3",
@@ -356,14 +356,14 @@
       "category": "Fees",
       "keywords": ["tuition fees", "course fees", "cost", "total fees", "college fees", "academic price", "program cost"],
       "question": "What is the tuition fee?",
-      "answer": "Tuition fees vary by program. On average, it ranges from $5,000 to $12,000 per academic year for most degree programs."
+      "answer": "Tuition fees vary by program. On average, it ranges from ₹4,15,000 to ₹9,96,000 per academic year for most degree programs."
     },
     {
       "id": "gen_2",
       "category": "Fees",
       "keywords": ["exam fees", "test fees", "backlog"],
       "question": "What is the exam fee?",
-      "answer": "Exam fees are $100 per semester. Backlog exam fees are $20 per subject."
+      "answer": "Exam fees are ₹8,300 per semester. Backlog exam fees are ₹1,660 per subject."
     }
   ]
 }

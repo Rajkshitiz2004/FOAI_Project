@@ -54,7 +54,7 @@ const MessageBubble = ({ message, onFeedback }) => {
               <div className="pricing-grid">
                 <div className="price-box">
                   <div className="price-label">Standard Pricing</div>
-                  <div className="price-value">$1,500 — $2,500</div>
+                  <div className="price-value">₹1,24,500 — ₹2,07,500</div>
                   <div className="price-sub">PER SEMESTER</div>
                 </div>
                 <div className="price-box accent">
@@ -65,7 +65,7 @@ const MessageBubble = ({ message, onFeedback }) => {
               </div>
 
               <div className="callout-box">
-                Note: Hostel fees range from $1,500 to $2,500 depending on the wing and room occupancy type (Single vs. Shared).
+                Note: Hostel fees range from ₹1,24,500 to ₹2,07,500 depending on the wing and room occupancy type (Single vs. Shared).
               </div>
             </>
           )}
